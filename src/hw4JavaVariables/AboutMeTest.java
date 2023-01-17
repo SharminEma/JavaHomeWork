@@ -17,17 +17,29 @@ public class AboutMeTest {
 		
 		System.out.println("\n--------------------------------------------------------------------");
 		
-		AboutMe Alex = new AboutMe();
-		Alex.name = "John Alex";
-		Alex.age = 77;
-		Alex.sex = 'M';
-		Alex.married= true;
-		Alex.myApartmentNumber=220;
-		Alex.myBankAccountNumber=1021562402l;
-		Alex.myGpa=2.8f;
-		Alex.myWeight=111.8;
+//		AboutMe Alex = new AboutMe();
+//		Alex.name = "John Alex";
+//		Alex.age = 77;
+//		Alex.sex = 'M';
+//		Alex.married= true;
+//		Alex.myApartmentNumber=220;
+//		Alex.myBankAccountNumber=1021562402l;
+//		Alex.myGpa=2.8f;
+//		Alex.myWeight=111.8;
 		
-		Alex.aboutMe();
+//		Alex.aboutMe();
+		
+		AboutMe Alex1 = new AboutMe();
+		Alex1.name = "John Alex";
+		Alex1.age = 77;
+		Alex1.sex = 'M';
+		Alex1.married= true;
+		Alex1.myApartmentNumber=220;
+		Alex1.myBankAccountNumber=1021562402l;
+		Alex1.myGpa=2.8f;
+		Alex1.myWeight=111.8;
+		
+		Alex1.aboutMe();
 		
 	}
 
